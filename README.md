@@ -1,1 +1,0 @@
-# FUND_ING_SFW_G3_1950
