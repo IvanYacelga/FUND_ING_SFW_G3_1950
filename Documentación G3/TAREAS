@@ -1,0 +1,7 @@
+git clone https://github.com/GabrielSuasnavas25/FUND_ING_SFW_G3_1950.git
+cd FUND_ING_SFW_G3_1950
+mkdir nueva-carpeta
+echo "Contenido del archivo" > nueva-carpeta/archivo.txt
+git add .
+git commit -m "Crear una nueva carpeta y agregar archivos"
+git push origin main
