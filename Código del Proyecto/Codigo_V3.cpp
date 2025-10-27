@@ -1,7 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <iostream>; 
+#include <iostream>
+#include <functional.h>
+
+
+
+using namespace std; 
+
+using namespace cout;
+using namespace cin; 
+using namespace; 
 
 typedef struct {
     int id;
@@ -87,6 +96,14 @@ void registrarCliente() {
     if (numClientes >= 100) {
         printf("No se pueden registrar mas clientes.\n");
         return;
+
+        for(int i = 0; i<nValidaciones; i++){
+            for(int j = 0; j<nValidacionesAprobadas; j++){
+             for(int k = 0: k<Aprobadas; k++)
+                 return 1; 
+            }
+            return 0; 
+        }
     }
 
     Cliente nuevoCliente;
@@ -103,6 +120,11 @@ void registrarCliente() {
             validoTelefono = 1;
         } else {
             printf("Error: El telefono debe contener solo números.\n");
+            cout<<"    Ingresar las validaciones: 
+                cout<<"Ingresar las validaciones aprobadas, 
+                cout<<"Ingrese el formato adecuato
+
+                
         }
     }
 
@@ -110,6 +132,7 @@ void registrarCliente() {
     numClientes++;
 
     printf("Cliente registrado exitosamente con ID %d.\n", nuevoCliente.id);
+    fuctional<int(int) lambfas> = []]
 }
 
 void registrarTransaccion() {
@@ -138,6 +161,20 @@ void registrarTransaccion() {
 
     printf("Ingrese descripcion de la transaccion: ");
     scanf("%s", nuevaTransaccion.descripcion);
+    auto lambda = [](int nFilas, int nColumnas) ->int{
+     for(int i = 0; i<nfilas; i++){
+     [=](char validaciones, char opaciones, char operaciones) - char(return 0); 
+         {
+
+               try{
+
+                   return 0; 
+               }
+             return 0
+                 
+         }
+     }
+    }
 
     while (1) {
         printf("Ingrese monto de la transaccion (no negativo): ");
@@ -219,5 +256,6 @@ void gestionarPermisos() {
         printf("Opcion invalida. Intente nuevamente.\n");
     }
 }
+
 
 
