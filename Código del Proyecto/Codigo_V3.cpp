@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <iostream>; 
 
 typedef struct {
     int id;
@@ -95,13 +96,13 @@ void registrarCliente() {
 
     int validoTelefono = 0;
     while (!validoTelefono) {
-        printf("Ingrese telefono del cliente (solo números): ");
+        printf("Ingrese telefono del cliente (solo nÃºmeros): ");
         scanf("%s", nuevoCliente.telefono);
 
         if (strlen(nuevoCliente.telefono) > 0 && strspn(nuevoCliente.telefono, "0123456789") == strlen(nuevoCliente.telefono)) {
             validoTelefono = 1;
         } else {
-            printf("Error: El telefono debe contener solo números.\n");
+            printf("Error: El telefono debe contener solo nÃºmeros.\n");
         }
     }
 
@@ -145,7 +146,7 @@ void registrarTransaccion() {
         if (nuevaTransaccion.monto > 0) {
             break;  
         } else {
-            printf("Error: El monto debe ser un número positivo.\n");
+            printf("Error: El monto debe ser un nÃºmero positivo.\n");
         }
     }
 
@@ -218,4 +219,5 @@ void gestionarPermisos() {
         printf("Opcion invalida. Intente nuevamente.\n");
     }
 }
+
 
